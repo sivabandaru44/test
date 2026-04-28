@@ -2,13 +2,13 @@ pipeline{
   agent any
   environment{
     AWS_REGION - 'eu-north-1'
-    IMAGE_NAME - 'todo-list'
+    IMAGE_NAME - 'test'
     REPO_NAME - 'project'
   }
   stages{
     stage('checkout'){
       steps{
-        git 'https://github.com/sivabandaru44/test'
+        git 'https://github.com/sivabandaru44/test.git'
       }
     }
     stage('Tag the image'){
