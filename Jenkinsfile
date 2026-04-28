@@ -8,7 +8,7 @@ pipeline{
   stages{
     stage('checkout'){
       steps{
-        git 'https://github.com/sivabandaru44/todo-list'
+        git 'https://github.com/sivabandaru44/test'
       }
     }
     stage('Tag the image'){
