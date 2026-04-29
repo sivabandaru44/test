@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'eu-north-1'
+        AWS_REGION = 'ap-southeast-2'
         IMAGE_NAME = 'test'
         REPO_NAME = 'project'
         IMAGE_TAG = 'latest'
-        ECR_URL = '991169314132.dkr.ecr.eu-north-1.amazonaws.com'
+        ECR_URL = '377480205258.dkr.ecr.ap-southeast-2.amazonaws.com'
     }
 
     stages {
